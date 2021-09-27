@@ -4,7 +4,10 @@
  */
 
 
-// 1.使用 Object.getPrototypeOf() 方法可以获取一个对象的原型
+// 1.使用 Object.getPrototypeOf() 方法可以获取一个对象的原型: 即返回 [[Prototype]] 的值
 const a = {}
 const b = {}
 console.log(Object.getPrototypeOf(a) === Object.getPrototypeOf(b)) // true
+
+
+// 2. 
